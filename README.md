@@ -1,6 +1,6 @@
 ![Project Snatcher Main Menu](screenshots/menu.gif)
 
-This is a college project we thought would be fun to share. It's a 2D stealth game for Android devices built in Java using the libGDX framework.
+This is a college project we thought would be fun to share. It's a 2D stealth game for Android devices built in Java using the [libGDX framework](https://www.libgdx.com/).
 
 You play as a sneaky burglar ![Snatcher](screenshots/snatcher.gif) and have to steal all the... umm... comfy garments. ![Glowing important item](screenshots/item.gif)
 
