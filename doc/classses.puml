@@ -1,0 +1,68 @@
+@startuml
+
+package "Classic Collections" #DDDDDD {
+  Object <|-- ArrayList
+}
+
+package com.badlogic.gdx #purple {
+  Object <|-- Demo1
+  Demo1 *- Demo2
+}
+
+package com.simov.game {
+  
+  package core {
+    Class Shop{
+      
+    }
+    Class Item{
+      
+    }
+    Class Player{
+      - Vector2 position
+    }
+    Class Hazard
+    Class Lazer
+    Class Camera
+    Class Guard
+
+Lazer --|> Hazard
+Camera --|> Hazard
+Guard --|> Hazard
+
+    
+  }
+  package controller {
+    Class GameController
+    Class PlayerController
+    Class HazardController
+  }
+  package utils {
+    package multiplayer {
+      Class ServerSession
+      Class ClientSession
+    }
+    package sensors {
+      Class HidingListener
+      Class MovingListener
+    }
+  }
+  package ui {
+
+    class GameManager
+    abstract class State
+    class LevelNState
+    class MenuState
+    class PauseState
+    class AttractState
+
+    State <|-- LevelNState
+    State <|-- MenuState
+    State <|-- PauseState
+    State <|-- AttractState
+  }
+ui -d-> utils
+
+}
+ui -d-> utils
+@enduml
