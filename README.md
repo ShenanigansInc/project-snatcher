@@ -1,5 +1,7 @@
 ![Project Snatcher Main Menu](screenshots/menu.gif)
 
+[Take a peek on itch.io!](https://tamanegicode.itch.io/project-snatcher)
+
 This is a college project we thought would be fun to share. It's a 2D stealth game for Android devices built in Java using the [libGDX framework](https://www.libgdx.com/).
 
 You play as a sneaky burglar ![Snatcher](screenshots/snatcher.gif) and have to steal all the... umm... comfy garments. ![Glowing important item](screenshots/item.gif)
@@ -8,7 +10,7 @@ As you make your way through the level, you'll have to avoid deadly lasers, surv
 
 ![Project Snatcher screenshot](screenshots/screenshot.jpg)
 
-# How to play
+# How to Play
 - Use the on-screen arrows to control the snatcher.
 
 - Hold your device screen-up to hide yourself as a not-at-all-suspicious painting. Guards will ignore you in this state.
@@ -28,4 +30,4 @@ Multiplayer is a little finicky as it was a very last minute addition. Make sure
 
 ![Snatcher next to a bomb](screenshots/bomb.png)
 
-In this mode, you'll both compete to catch all the items and reach the end of the level as quickly as possible. The twist being you can now plant bombs, which send your opponent all the way back to the very beginning of the level. To make matters worse, you cannot see bombs planted by your opponent, so there's no way of telling where they are until it's too late. Pure friendship destroying mayhem.
+In this mode, you'll both compete to catch all the items and reach the end of the level as quickly as possible. The twist being you can now plant bombs, which send your opponent all the way back to the very beginning of the level. To make matters worse, you cannot see bombs planted by your opponent, so there's no way of telling where they are until it's too late. Pure friendship-destroying mayhem.
